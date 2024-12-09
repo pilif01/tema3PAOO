@@ -14,7 +14,7 @@ int main()
     entity3 = entity2;                   // Copy assignment operator
  
     // Testing self-assignment
-    entity2 = entity2;                   // Should handle gracefully
+    entity2 = entity2;                  
  
     cout << "Name of entity2: " << entity2.getName() << endl;
     cout << "Name of entity3: " << entity3.getName() << endl;
