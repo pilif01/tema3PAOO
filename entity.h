@@ -5,9 +5,9 @@ using namespace std;
  
 class Entity {
 private:
-    string name;     // Numele entității
-    int* data;       // Pointer către datele alocate dinamic
-    int size;        // Dimensiunea datelor
+    string name;     // nume
+    int* data;       // pinter
+    int size;       
  
 public:
     // Constructor
@@ -28,6 +28,6 @@ public:
     // Operator de atribuire prin mutare
     Entity& operator=(Entity&& other) noexcept;
  
-    // Getter pentru numele entității
+    // Getter
     string getName() const;
 };
